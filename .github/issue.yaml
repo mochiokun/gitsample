@@ -1,0 +1,20 @@
+name: "aaaa"
+description: "aaaaaaa"
+title: "title"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        タイトルはあああ
+  - type: checkboxes
+    attributes:
+      label: 確認事項
+      options:
+        - label: |
+            本Issueは〜〜〜
+          required: true
+  - type: textarea
+    attributes:
+      label: 変更起因
+      description: |
+        ここを
